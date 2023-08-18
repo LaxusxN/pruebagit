@@ -1,10 +1,14 @@
 .flex {
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
-  display: contents;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 4px;
+  color:yellow;
+  transition: color 0.3s ease;
+}
+.flex:hover{
+  color :orange;
 }
 body {
   margin: 0;
@@ -26,11 +30,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 5px; /* Borde de radio de 5px */
+  border: 2px solid red; /* Borde sólido de color rojo */
 }
 
 .login-box h1 {
   margin-bottom: 20px;
   text-align: center;
+ border-radius: 2px solid red
+ ;
 }
 
 .login-input {
@@ -39,10 +47,6 @@ body {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
-}
-.titulos{
-  background: yellow; /* Fondo amarillo */
-  color: #000; /* Texto en negro */
 }
 
 .login-button {
