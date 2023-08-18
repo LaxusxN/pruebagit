@@ -1,9 +1,10 @@
-import Image from 'next/image'
+
 
 export default function Home() {
   return (
-  <div>
+  <main>
   <h1>Hola mundo, este un ejercicio de prueba</h1>
-  </div>
+  <h2>hola  soy  Jackelin ,   soy  estudiante  de villarelax</h2>
+  </main>
   )
 }
